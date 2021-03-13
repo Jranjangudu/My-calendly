@@ -1,0 +1,4 @@
+.select:focus {
+  border: 2px solid blue;
+  cursor: pointer;
+}

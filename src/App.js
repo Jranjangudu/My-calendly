@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Leftcontainer from "./components/leftside/Leftcontainer";
+import Rightcontainer from "./components/rightside/Rightcontainer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container mt-5">
+      <h2 className="my-2" style={{ fontFamily: "monospace", color: "white" }}>
+        My calendly
+      </h2>
+      <div className="row">
+        <Leftcontainer />
+
+        <Rightcontainer />
+      </div>
+      <small style={{ marginTop: "20px", color: "#fff" }}>
+        Copyright &copy; 2021
+      </small>
     </div>
   );
 }

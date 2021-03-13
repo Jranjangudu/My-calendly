@@ -1,0 +1,25 @@
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  background-color: rgb(53, 53, 53);
+  color: #fff;
+  padding: 10px 5px;
+}
+.items_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 8px;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 2px 3px 4px rgb(73, 72, 72);
+  border-left: 3px solid #0e9af2;
+}
+.delete {
+  cursor: pointer;
+}
+.delete:hover {
+  color: red;
+}
